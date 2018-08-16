@@ -4,9 +4,6 @@
 
     <persistence-unit name="hibernatecourse" transaction-type="RESOURCE_LOCAL">
 
-        <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>com.geowarin.hibernate.jpa.standalone.model.User</class>
-
         <properties>
             <property name="javax.persistence.jdbc.driver"
                       value="com.mysql.jdbcDriver"/>
